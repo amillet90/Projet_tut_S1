@@ -1,4 +1,4 @@
-<script src="">
+(setq markdown-css-paths '("https://github.com/amillet90/Projet_tut/blob/master/css/markdown-pandoc-amV2.css"))
 
 # Utilisation du markdown
 
@@ -12,6 +12,11 @@
 
 
 ## cahier des charges
+
+![présentation de votre cahier des charges](images/cahier_des_charges.jpeg
+
+## documentation technique
+
 
 
 # Mise en oeuvre

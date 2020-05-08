@@ -1,3 +1,5 @@
+(setq markdown-css-paths '("https://github.com/amillet90/Projet_tut/blob/master/css/markdown-pandoc-amV2.css"))
+
 # note sur github/gitlab
 
 … ou importer du code d'un autre dépot (**repository**)
