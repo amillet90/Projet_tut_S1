@@ -11,48 +11,38 @@
 
 
 
-## cahier des charges
+# cahier des charges
 
-![présentation de votre cahier des charges](images/cahier_des_charges.jpeg
+![présentation de votre cahier des charges](images/cahier_des_charges.jpeg)
 
-## documentation technique
+## structure de données du projet
+
+* **Modèle Conceptuel de Données(MCD)**
+
+<br>
+
+* **Modèle Logique de données(MLD)**
+
+<br>
+
+* **Diagramme de relation entre les entités (Entity Relationship diagram:ERD)**
+
+
+## principales interfaces du projet
+
+* sur mobile <https://mockflow.com/>
+* sur écran <https://gomockingbird.com/mockingbird/> ?
+
+![exemple d'interface](images/exemple_interface1.png)
+
+## Menu
+
+<https://www.gloomaps.com/>
+<https://graphiste.com/blog/logiciels-mind-mapping-gratuits>
+
+## aspect sécurité
+
+* stratégies :
 
 
 
-# Mise en oeuvre
-
-## semaine 1
-
-etudiant1 :
-
-etudiant2 :
-
-## semaine 2
-
-etudiant1 :
-
-etudiant2 :
-
-## semaine 3
-
-etudiant1 :
-
-etudiant2 :
-
-## semaine 4
-
-etudiant1 :
-
-etudiant2 :
-
-## semaine 5
-
-etudiant1 :
-
-etudiant2 :
-
-## semaine 6
-
-etudiant1 :
-
-etudiant2 :

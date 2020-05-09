@@ -76,6 +76,10 @@ git push -u origin --all
 git push -u origin --tags
 ~~~
 
+
+
+# mettre ses identifiants dans un fichier ou en cache
+
 <https://git-scm.com/docs/git-credential>
 
 ~~~
