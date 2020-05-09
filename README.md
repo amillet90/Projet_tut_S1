@@ -1,21 +1,9 @@
 (setq markdown-css-paths '("https://github.com/amillet90/Projet_tut/blob/master/css/markdown-pandoc-amV2.css"))
 
-# Utilisation du markdown
-
-![](images/image_markdown.png)
-[article sur le markdown](articles/doc_markdow.md)
-
-<br>
-
-[article sur le markdown](articles/doc_git.md)
-
-# présentation de Git
 
 # Projet Tut
 
-
-
-# cahier des charges
+## cahier des charges
 
 ![présentation de votre cahier des charges](images/cahier_des_charges.jpeg)
 
@@ -44,9 +32,19 @@
 <https://www.gloomaps.com/>
 <https://graphiste.com/blog/logiciels-mind-mapping-gratuits>
 
-## aspect sécurité
+## Aspect sécurité/authentification
 
 * stratégies :
 
 
+# Divers
+
+
+![](images/image_markdown.png)
+[article sur le markdown](articles/doc_markdow.md)
+
+<br>
+## présentation de Git
+
+[article sur le markdown](articles/doc_git.md)
 
