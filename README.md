@@ -4,6 +4,9 @@
 
 ![](images/image_markdown.png)
 [article sur le markdown](articles/doc_markdow.md)
+
+<br>
+
 [article sur le markdown](articles/doc_git.md)
 
 # présentation de Git
