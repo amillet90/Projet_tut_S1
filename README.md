@@ -1,9 +1,10 @@
-(setq markdown-css-paths '("https://github.com/amillet90/Projet_tut/blob/master/css/markdown-pandoc-amV2.css"))
+
+<link rel="stylesheet" type="text/css" href="https://github.com/amillet90/Projet_tut/blob/master/css/markdown-pandoc-amV2.css">
 
 
-# Projet Tut
+# Projet Tuteuré 
 
-## cahier des charges
+## Cahier des charges
 
 ![présentation de votre cahier des charges](images/cahier_des_charges.jpeg)
 
@@ -20,7 +21,7 @@
 * **Diagramme de relation entre les entités (Entity Relationship diagram:ERD)**
 
 
-## principales interfaces du projet
+## Principales interfaces du projet
 
 * sur mobile <https://mockflow.com/>
 * sur écran <https://gomockingbird.com/mockingbird/> ?
