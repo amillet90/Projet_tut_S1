@@ -10,7 +10,7 @@
 
 ## Structure de données du projet
 
-* **Modèle Conceptuel de Données(MCD)**
+* **Modèle Conceptuel de Données(MCD)**{color=blue}
 
 <br>
 
@@ -50,5 +50,5 @@
 
 ## Présentation de Git
 
-* [article sur le markdown](documentation/articles/doc_git.md)
+* [article sur git](documentation/articles/doc_git.md)
 
