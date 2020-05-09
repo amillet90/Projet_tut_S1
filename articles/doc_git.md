@@ -1,6 +1,7 @@
-(setq markdown-css-paths '("https://github.com/amillet90/Projet_tut/blob/master/css/markdown-pandoc-amV2.css"))
-
 # note sur github/gitlab
+
+* documentation
+<https://developer.mozilla.org/fr/docs/Apprendre/Utiliser_les_pages_GitHub>
 
 … ou importer du code d'un autre dépot (**repository**)
 
@@ -65,16 +66,21 @@ git remote add origin https://gitlab.com/votreloginiut90/projetinfo.git
 git clone https://gitlab.com/votreloginiut90/projetinfo.git
 ~~~
 
-## Existing Git repository (inutile je pense)
+## Existing Git repository (pour utiliser un deuxième dépot)
 
 ~~~
 cd existing_repo
-git remote rename origin old-origin
-git remote add origin https://gitlab.com/votreloginiut90/projetinfo.git
+git remote rename origin old-origin    # pour renommer un dépot 
+git remote add origin https://gitlab.com/votreloginiut90/projetinfo2.git
 git push -u origin --all
 git push -u origin --tags
 ~~~
 
+<https://git-scm.com/docs/git-credential>
+
+~~~
+git config --global credential.helper 'store --file ~/.my-credentials'
+~~~
 
 # conflit 
 
