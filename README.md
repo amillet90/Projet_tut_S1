@@ -3,7 +3,8 @@
 # Utilisation du markdown
 
 ![](images/image_markdown.png)
-[article sur le markdown](doc_markdow.md)
+[article sur le markdown](articles/doc_markdow.md)
+[article sur le markdown](articles/doc_git.md)
 
 # présentation de Git
 
