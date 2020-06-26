@@ -11,7 +11,7 @@
 
 for($i;$i<15;$i++)
 {
-    for($j;$j<$i;$j++)
+    for($j=0;$j<$i;$j++)
         echo '+';
     echo "<br>";
 }
