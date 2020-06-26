@@ -19,6 +19,33 @@ Utiliser laposte.net ou gmail : ce compte va permettre de créer le compte herok
 info90.s1.groupe1.2019@gmail.com
 mdp : info90s1g1.0000    0000 son des chiffres à définir avec votre suiveur -->
 
+# découverte "Découvrez l’intégration continue, le déploiement et la livraison"
+
+<https://trailhead.salesforce.com/fr/content/learn/modules/heroku-flow/learn-about-continuous-integration-deployment-and-delivery>
+
+<https://medium.com/@JohanPujol/int%C3%A9gration-continue-d%C3%A9ploiement-continue-ci-cd-avec-gitlab-et-heroku-b809801a1524>
+
+# Utilisation de github/gitlab comme dépot
+
+## installer git (sur votre machine)
+
+## créer un compte github
+
+[lien sur github](https://github.com/join)
+
+## créer un dépot pour votre projet
+
+Ne pas le mettre en public
+
+
+~~~
+git remote add s1_projet https://github.com/amillet90/Projet_tut_S1.git
+~~~
+
+
+~~~
+git init
+~~~
 
 # créer un client heroku pour votre projet tuteuré de S1
 
@@ -50,17 +77,29 @@ choco install heroku-cli
 
 Dans le dossier de votre Projet
 
+~~~
+# connecter le dossier à la plateforme heroku
+heroku login -i
+# création du projet
+heroku apps:create s1-projet
+# 
+heroku git:remote -a s1-projet
+git push heroku
+
+heroku login
+
+
+https://dashboard.heroku.com/apps/s1-projet/deploy/github
+#connecter à github
+~~~
 
 
 
-# créer un compte github
-
-[]()
-
-
-
+https://github.com/amillet90/S1_test
 
 
 # Annexe
 
 <https://medium.com/@girardmaxime33/comment-h%C3%A9berger-votre-site-gratuitement-1accf477a37>
+
+<https://www.youtube.com/watch?v=Uj8-m35Uzm0>
