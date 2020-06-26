@@ -22,11 +22,12 @@ mdp : info90s1g1.0000    0000 son des chiffres à définir avec votre suiveur --
 
 # créer un client heroku pour votre projet tuteuré de S1
 
-## Héroku c'est quoi ?
+## Héroku c'est quoi ?
+
 Heroku est une plateforme d’hébergement qui vous permet de déployer tout un tas d’applications dynamiques en Rails, PHP, Node.js ou encore des applications web en Python par exemple.Elle sert uniquement pour les tests.
 Dans votre cas, elle ne va servir que pour héberger les pages Web de votre projet tuteuré.
 
-##  créer [un compte heroku](https://signup.heroku.com/)
+## créer [un compte heroku](https://signup.heroku.com/)
 Aller sur le lien [heroku](https://signup.heroku.com/)
 
 
