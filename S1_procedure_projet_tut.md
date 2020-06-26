@@ -12,12 +12,12 @@ Eviter les majuscules/minuscules, eviter caractères espace, "_" , accents. Suiv
 Boilerplate, Initializr, HTML KickStart…       ?
 Les bonnes pratiques pour organiser ses fichiers html, css, images .... de son projet.
 L'organistation la plus populaire (à ma connaissance) est "Boilerplate". Il existe des sur-couche à cette organisation de fichier : Initializr, HTML KickStart…
-[article 1](https://www.apprendre-html-et-css.com/comment_organiser_ses_fichiers.html), [article 2]()
-<!-- ## créer une boite email 
+<br>
+Mais une simple organisation comme dans cet [article](https://www.apprendre-html-et-css.com/comment_organiser_ses_fichiers.html) suffit
 
-Utiliser laposte.net ou gmail : ce compte va permettre de créer le compte heroku (pour héberger votre travail) et github () de votre projet tuteuré
-info90.s1.groupe1.2019@gmail.com
-mdp : info90s1g1.0000    0000 son des chiffres à définir avec votre suiveur -->
+
+
+
 
 # découverte "Découvrez l’intégration continue, le déploiement et la livraison"
 
@@ -74,31 +74,37 @@ choco install heroku-cli
 ~~~
 
 
+## utiliser le client heroku
 
 Dans le dossier de votre Projet
 
 ~~~
-# connecter le dossier à la plateforme heroku
+# se placer dans le bon répertoire
+# se connecter à la plateforme heroku
 heroku login -i
 # création du projet
 heroku apps:create s1-projet
-# 
-heroku git:remote -a s1-projet
+
+# ouvre le navigateur
+heroku open
+~~~
+
+* à chaque modification
+
+~~~
+# on pousse les modifications
+git add -A
+git commit -am "make it better"
 git push heroku
 
-heroku login
-
-
-https://dashboard.heroku.com/apps/s1-projet/deploy/github
+#https://dashboard.heroku.com/apps/s1-projet/deploy/github
 #connecter à github
 ~~~
 
 
-
-https://github.com/amillet90/S1_test
-
-
 # Annexe
+
+heroku run  : permet de lancer un service (serveur mysql)
 
 <https://medium.com/@girardmaxime33/comment-h%C3%A9berger-votre-site-gratuitement-1accf477a37>
 
