@@ -77,6 +77,20 @@ git push -u origin --tags
 ~~~
 
 
+<!-- git remote add origin https://github.com/amillet90/Projet_tut.git
+
+
+peut remplacer
+git clone https://github.com/amillet90/Projet_tut.git
+
+
+git remote -v
+
+        origin  https://github.com/amillet90/Projet_tut.git (fetch)  => extraire
+        origin  https://github.com/amillet90/Projet_tut.git (push)   => pousser
+ -->
+
+
 
 # mettre ses identifiants dans un fichier ou en cache
 

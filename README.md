@@ -1,16 +1,12 @@
-
-<link rel="stylesheet" type="text/css" href="documentation/css/markdown-pandoc-amV2.css">
-
-
 # Projet Tuteuré 
 
 ## Cahier des charges
 
-![présentation de votre cahier des charges](documentation/images/cahier_des_charges.jpeg)
+![présentation de votre cahier des charges](doc/images/cahier_des_charges.jpeg)
 
 ## Structure de données du projet
 
-* **Modèle Conceptuel de Données(MCD)**{color=blue}
+* **Modèle Conceptuel de Données(MCD)**
 
 <br>
 
@@ -26,7 +22,7 @@
 * sur mobile <https://mockflow.com/>
 * sur écran <https://gomockingbird.com/mockingbird/> ?
 
-![exemple d'interface](documentation/images/exemple_interface1.png)
+![exemple d'interface](doc/images/exemple_interface1.png)
 
 ## Menu
 
@@ -44,11 +40,11 @@
 
 ![](images/image_markdown.png)
 
-* [article sur le markdown](documentation/articles/doc_markdow.md)
+* [article sur le markdown](doc/articles/doc_markdow.md)
 
 <br>
 
 ## Présentation de Git
 
-* [article sur git](documentation/articles/doc_git.md)
+* [article sur git](doc/articles/doc_git.md)
 
