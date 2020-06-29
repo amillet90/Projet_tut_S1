@@ -8,8 +8,16 @@
 </head>
 <body>
 <h1>permier test</h1>
+<form>
+	<input type="text" name="entree1">
+</form>
+
 <?php
-for($i=0;$i<15;$i++)
+if(isset($_GET['entree1']) and is_numeric($_GET['entree1']))
+	$imax=$_GET['entree1'];
+else
+	$imax=15;
+for($i=0;$i<$imax;$i++)
 {
     for($j=0;$j<$i;$j++)
         echo '😃';

@@ -18,7 +18,6 @@ Mais une simple organisation comme dans cet [article](https://www.apprendre-html
 
 
 
-
 # découverte "Découvrez l’intégration continue, le déploiement et la livraison"
 
 <https://trailhead.salesforce.com/fr/content/learn/modules/heroku-flow/learn-about-continuous-integration-deployment-and-delivery>
@@ -35,17 +34,52 @@ Mais une simple organisation comme dans cet [article](https://www.apprendre-html
 
 ## créer un dépot pour votre projet
 
-Ne pas le mettre en public
+Il n'est pas obligatoire de mettre en public, par contre il faudra partager votre travail avec le compte de l'enseignant qui suit votre projet, exemple de lien pour partager votre accès : <https://github.com/amillet90/S1_test/settings/access>
 
+## intégrer en local votre projet
+
+## Git global setup
 
 ~~~
-git remote add s1_projet https://github.com/amillet90/Projet_tut_S1.git
+git config --global user.name "iut belfort projet tut"
+git config --global user.email "votreLogin.iut90@gmail.com"
 ~~~
 
+## démarrer le projet
 
 ~~~
 git init
 ~~~
+
+## Create a new repository (pour vous : récupérer(création) du projet sur votre machine)
+
+
+~~~
+git clone https://gitlab.com/votreloginiut90/projetinfo.git
+~~~
+
+## Existing folder (travailler dans le projet)
+
+~~~
+cd existing_folder
+git remote add s1_projet https://github.com/amillet90/Projet_tut_S1.git
+~~~
+
+## envoyer son travail
+
+~~~
+# on pousse les modifications
+git add -A
+git commit -am "make it better"
+git push -u s1_projet master
+~~~
+
+## récupérer le travail
+
+~~~
+git pull s1_projet master
+~~~
+
 
 # créer un client heroku pour votre projet tuteuré de S1
 
