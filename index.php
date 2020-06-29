@@ -15,11 +15,11 @@
 test php
 <br><br>
 <?php
-if(isset($_GET['entree1']) and is_numeric($_GET['entree1']))
+if(isset($_GET['entree1']) and is_numeric($_GET['entree1']) and $_GET['entree1'] > 1 )
 	$imax=$_GET['entree1'];
 else
 	$imax=15;
-for($i=0;$i<$imax;$i++)
+for($i=0;$i<=$imax;$i++)
 {
     for($j=0;$j<$i;$j++)
         echo '😃';
